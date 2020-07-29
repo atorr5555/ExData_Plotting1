@@ -42,7 +42,7 @@ with(data, {
     legend("topright"
            , col=c("black","red","blue")
            , c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3")
-           ,lty=c(1, 1), lwd=c(1, 1)
+           ,lty=c(1, 1), lwd=c(1, 1), bty = "n"
     )
     ## Plot (1, 2)
     plot(x = dateTime, y = Voltage, xlab = "datetime", ylab = "Voltage",
